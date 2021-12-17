@@ -103,9 +103,9 @@ html {
     text-align: center;
 }
 
-.main-nav li:last-child a {
+/* .main-nav li:last-child a {
     border-bottom: 2px solid #fff;
-}
+} */
 
 .main-nav li {
     display: block;
@@ -128,6 +128,27 @@ html {
     background: #fff;
     color: #8c363e;
 }
+
+.resume-li{
+    display: block; 
+    height: 70px;
+    line-height: 70px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    width: 100%;
+    transition: all 0.5s;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.resume-li:hover .resume-a {
+    background: #fff;
+    color: #8c363e;
+}
+
+
 
 /* Sidebar Menu */
 
