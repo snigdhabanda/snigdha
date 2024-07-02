@@ -8,11 +8,11 @@ permalink: /technical/
 
 In the 0-1 program, I ran experiments with open-source and commerical LLMs and designed a second brain for physicians to accelerate knowledge building in academic hospitals. 
 
-In a canonical clinical database, physicians spend 1-4 hrs/day reading patient notes before and after visits, and up to 8 minutes answering natural language questions. These factors decrease clinical diagnostic and prognostic accuracy at the point-of-care and increase clinical burnout. Motivated by my own priors from medical school, I worked to develop a LLM-based patient control dashboard that empowered physicians with natural language queries, the parsing of unstructured medical notes into structured ouputs, data visualizations, and intelligent analysis of actions performed.
+In a canonical clinical database, physicians spend 1-4 hrs/day reading patient notes before and after visits, and up to 8 minutes answering natural language questions. These factors decrease clinical diagnostic and prognostic accuracy at the point-of-care and increase clinical burnout. Motivated by my own priors from medical school, I worked to develop a LLM-based patient control dashboard that empowered physicians with natural language queries, the parsing of unstructured medical notes into structured ouputs, data visualizations, and intelligent analysis of user actions.
 
-- Tested performance of 15 open-source clinically fine-tuned models on Hugging Face against commercial LLMs like Claude Opus and GPT-4 on question-answering
+- Tested performance of 15 open-source clinically fine-tuned modelsagainst commercial LLMs on question-answering
 - Designed a platform to turn unstructured clinical notes into structured outputs
-- Developed orchestration tools for LLM actions  
+- Developed orchestration tools for LLM queries  
 
 I established partnerships with 500+ bed hospitals, joined the Artificial Board of AI in Medicine, met with 100+ physicians and researchers, wrote product roadmaps and engineering designs, and coded daily.
 
@@ -57,6 +57,6 @@ A: Built a library that versioned and diffed all uploaded app copy in the docume
 
 Q: How do you prevent degrading microservices from crashing the central router responsible for shuttling user data to and from the app? 
 
-A: Extended existing rate limiting libraries and implemented this feature in the central routing microservice owned by my team to throttle traffic from degrading services and prevent a total system failure. Java/Kotlin, LaunchDarkly, microservice library frameworks.
+A: Extended existing rate limiting libraries and implemented this feature in the central routing microservice owned by my team to throttle traffic from degrading services and prevent total system failure. Java/Kotlin, LaunchDarkly, microservice library frameworks.
 
 </details>
