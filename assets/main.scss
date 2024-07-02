@@ -5,14 +5,14 @@
 @import "minima";
 
 .text {
-    width: auto;
+    width: 250%;
 }
 
 .home-text {
     width: 100%; 
     display: flex;
     flex-direction: row; 
-    gap: 70px
+    gap: 10%
 }
 
 .posts {
