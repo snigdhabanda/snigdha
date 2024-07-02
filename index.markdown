@@ -7,7 +7,7 @@ layout: home
 <div class="home-text">
 
 <div class="img">
-<img class="profile-pic" src="/assets/snigdha_pic.png"></img>
+<img class="profile-pic" src="/assets/snigdha_pic.png" style="width:100%;"></img>
 </div>
 
 <div class="text">
